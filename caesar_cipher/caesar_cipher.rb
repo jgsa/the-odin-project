@@ -1,3 +1,8 @@
+# Implement a caesar cipher that takes in a string and the
+# shift factor and then outputs the modified string
+
+# From: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/caesar-cipher
+
 def caesar_cipher(text, shift)
     upper = ('A'..'Z').to_a
     lower = ('a'..'z').to_a
